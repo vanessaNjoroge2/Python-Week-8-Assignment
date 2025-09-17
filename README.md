@@ -14,7 +14,7 @@ The goal of this project was to:
   * Identify top journals
   * Find frequent words in paper titles
 * Create meaningful visualizations (bar charts, word cloud, etc.).
-* Build a simple **Streamlit app** to interact with the data.
+* Experiment with a simple **Streamlit app** for interactivity.
 
 ## ⚙️ Tools Used
 
@@ -22,7 +22,7 @@ The goal of this project was to:
 * pandas (data manipulation)
 * matplotlib & seaborn (visualization)
 * wordcloud (text analysis)
-* Streamlit (interactive app)
+* Streamlit (interactive app, optional)
 
 ## 📊 Visualizations
 
@@ -33,17 +33,35 @@ The goal of this project was to:
 
 ## 🚀 How to Run
 
+This project was developed and run in **Google Colab**.
+
+### Option 1: Run in Colab (Recommended)
+
+1. Open the notebook directly in Colab:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vanessaNjoroge2/Python-Week-8-Assignment/blob/main/Week%208%20PythonAssignment.ipynb)
+
+2. Run all the cells to reproduce the analysis and visualizations.
+
+### Option 2: Run Locally (Optional)
+
+If you prefer running locally:
+
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/Frameworks_Assignment.git
+   git clone https://github.com/vanessaNjoroge2/Python-Week-8-Assignment.git
    ```
 2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Streamlit app:
+3. Open the Jupyter notebook:
+
+   ```bash
+   jupyter notebook "Week 8 PythonAssignment.ipynb"
+   ```
+4. (Optional) To try the Streamlit app part:
 
    ```bash
    streamlit run app.py
@@ -60,7 +78,7 @@ Through this project, I practiced:
 
 * Loading and cleaning real-world datasets.
 * Performing exploratory data analysis (EDA).
-* Creating interactive dashboards with Streamlit.
+* Creating visualizations to explore trends in COVID-19 research.
 * Documenting and publishing work via GitHub.
 
 ---
